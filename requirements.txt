@@ -1,0 +1,9 @@
+aiogram
+openai
+python-dotenv
+langchain
+langchain_experimental
+langchain-openai
+langchain-core
+pandas
+tabulate

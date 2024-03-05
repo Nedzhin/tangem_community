@@ -1,0 +1,460 @@
+"There is no inherent risk in connecting to dapps. This action allows them to view your balance and suggest transactions, but they can't do anything with your assets unless you sign transactions they propose. 
+
+However, you do need to be vigilant about these transactions. This is one of the most common ways that web3 users lose funds."
+"What is a blockchain?
+A blockchain is a type of distributed ledger technology. Let's break that down.
+Traditionally, a digital database is kept in a specialized computer called a server. This server would be accessed by people who are granted permission to do so; it could be made public, or private, or somewhere in between, but everyone is accessing that same database—it's centralized.
+
+What's more, it's probably controlled by a certain set of people, and at the end of the day, we have to trust that the data is being kept safe and is accurate (and not being used for purposes that go against our own interests!). The downside to this is, of course, what if someone isn't acting in good faith? What if someone hacks the database and changes things, or steals information for their own purposes (or sells it as part of their business model)?
+
+A blockchain—and in particular, a public blockchain—is, at its core, a different kind of database. The word ledger is used to describe it. Like a ledger, a blockchain is very good at keeping track of assets coming and going, but it can store lots of different kinds of information. However, rather than having this ledger all in one computer (centralized), it's synced across a number of different computers known as nodes: it's decentralized or, as it's often called, distributed.
+
+All of those nodes are constantly syncing information between each other about transactions on the ledger: assets moving from one address, or account, on the network to another. These transactions are checked against the ledger's history to ensure that they're valid. Once enough nodes have verified a new transaction, it gets confirmed and becomes final. After a certain amount of time, or every certain number of transactions, the network will bundle up all those finalized transactions and seal them, using cryptographic software tools, into a block. This block is identified with a hash produced by those cryptographic tools: this encrypts details about the block into a long hexadecimal number. The next block will use the previous block's hash as a starting point, and so the entire history of the ledger, and therefore of the network, is linked together in a chain of blocks containing transactions: the blockchain. "
+"What is Ethereum?
+Ethereum is a public blockchain network with a vast vision. Ethereum's designers realized that if you built a public blockchain network, you could do a lot more than just track digital currency: you could run a global public computer, always available and open to the world. And that's what Ethereum is: it's a global network that is capable of running programs on the Ethereum Virtual Machine, or EVM. Programs are written for the EVM in a language called Solidity, and the network uses a cryptocurrency, called ether (or ETH, pronounced ""eeth"") to compensate the people that maintain the network—and also as a token of value for transactions carried out on the network. "
+"What is gas, and why do I have to use it?
+Gas is the unit of measure for how much computational work is required to process transactions and smart contracts on the Ethereum Virtual Machine (EVM). More complex smart contracts, and code, will require more gas to execute, in the same way that a bigger, more powerful car takes more gas to run.
+
+Calculating gas used to be very complicated, but as of the implementation of Ethereum Improvement Protocol (EIP) 1559 on August 4, 2021, it was greatly simplified. Essentially, you pay a base fee for every unit of gas, which is burned, or disappears, upon successful completion of the transaction. On top of the base fee, you add a priority fee, again per unit of gas, the value of which depends on how quickly you want the transaction to go through."
+"What is BTC? 
+The first cryptocurrency, based on a Proof of Work (PoW) blockchain. Bitcoin was created in 2009 by Satoshi Nakomoto — a pseudonym for an individual or group whose real identity is unknown — and the concept of cryptocurrency was outlined in a white paper titled “Bitcoin: A Peer-to-Peer Electronic Cash System.”
+
+The word is capitalized (“Bitcoin”) when referring to the blockchain network, whereas it remains lower case (“bitcoin”), and is often abbreviated as BTC, when referring to the cryptocurrency itself."
+"What is Blockchain? 
+
+A digital ledger whose entries are recorded in packages called blocks. Each block is ‘chained’ to the next block using a cryptographic signature."
+"What are Dapps? 
+
+An application that allows the user to interact with a public blockchain. This could mean swapping tokens, viewing NFTs, building collaborative artwork, mixing music samples–or that idea you’ve been thinking about, but haven’t yet built.
+You may see alternate spellings: dApps, DApps, Dapps, and Đapps."
+"What is Etherscan? 
+
+Etherscan is a block explorer and analytics platform for Ethereum. It allows users to easily search for transactions, as well as providing information about each transaction.
+You do not need to connect your wallet to Etherscan to use it. You can simply search by wallet address or transaction ID (also known as a transaction hash.)"
+"What is Node? 
+
+A computer that acts as a participant on a blockchain network, syncing transaction data and ensuring the security and integrity of the system."
+"What is NFT? 
+
+A non-fungible token (NFT) is a type of token that is a unique digital asset and has no equal token. This is in contrast to cryptocurrencies like ether that are fungible in nature.
+When discussing NFTs, “fungibility” refers to an object’s ability to be exchanged for another. For example, an individual dollar is considered fungible as we can trade dollars with one another. Artwork is usually deemed non-fungible as paintings, sculptures, or masterpieces are likely to be unequal in quality or value."
+"What is PoS? 
+
+A consensus mechanism in which an individual runs blockchain software (a “validator node”) responsible for validating transactions, blocks, and the state of the network.
+The individual must first “stake” an amount of cryptocurrency, such as ether, in a smart contract; this allows them to participate in consensus-building. If the individual’s validator node functions within specifications, they are rewarded, usually with cryptocurrency. If, on the other hand, the node functions poorly or maliciously, the staked tokens can be “slashed”, or taken away.
+PoS requires a negligible amount of computing power compared to Proof of Work consensus."
+"What is a seed phrase? 
+
+The seed phrase, mnemonic, or Secret Recovery Phrase is a set of words used to access and control your crypto wallet.
+The Secret Recovery Phrase is exactly what it sounds like: something that is secret, and should be known only to the owner of the account. If the seed phrase is given to someone else, that person has complete control over the account; they can drain it of tokens and funds, execute transactions with it, etc."
+"What is a smart contract? 
+
+Smart contracts are computer programs that are recorded, or “deployed,” to a public blockchain, and can then be used, or “called,” by users or other smart contracts.
+While smart contracts often contain agreements or sets of actions between parties that emulate a traditional legal contract, they are not, in and of themselves, legal documents nor contractual instruments.
+Smart contracts are automated actions that can be coded and executed once a set of conditions is met, and are the dominant form of programming on the Ethereum Virtual Machine."
+"What is a stablecoin? 
+Any cryptocurrency whose value is pegged to a stable asset, like fiat currency or gold. For example, USDC and DAI are both pegged to the US Dollar.
+"
+"Stablecoins are a unique type of digital asset. The value of these assets is pegged to real-world assets: fiat currencies, like the U.S. dollar, or commodities, such as gold or silver. These types of assets also have unique positioning to avoid the impact of market fluctuations. Since a stablecoin’s value is pegged to a real-world asset, crypto market volatility doesn’t affect them. This offers traders a great way for crypto traders to take profits or make swaps without off-ramping.
+
+Essentially stablecoins often operate as fiat on-chain. Much like cash, they are suitable for everyday purchases, such as buying in-game items or paying for crypto services.
+
+But unlike fiat, stablecoins operate on blockchain networks, just like traditional cryptocurrencies such as Bitcoin or Ether. As such, they get all the perks of blockchain tech: sending assets from one person to another doesn’t require a middleman, and transactions are transparent and secure. Peer-to-peer (p2p) transfer slashes the waiting times you’d expect with traditional financial transactions, thus allowing you to execute cross-border trades with ease. Essentially, stablecoins can help funds get to places where banks have struggled.
+
+But beyond that more compelling use case, stablecoins are also popular with crypto traders, speculators, and digital artists alike. Thus today, countless iterations exist. That said, there are only a handful of stablecoins people actually use. One such stablecoin is USDC. "
+"USD Coin (USDC) is a tokenized version of the U.S. dollar (USD) that works on 15 different blockchain networks: Algorand, Arbitrum, Avalanche, Base, Ethereum, Flow, Hedera, NEAR, Noble, OP Mainnet, Polkadot, Polygon PoS, Solana, Stellar, and TRON. Designed to maintain a constant value of $1, you can always trade USDC for the same value you deposited at any time. But unlike the traditional dollar, you can use USDC to access countless crypto platforms and services. It’s currently the second largest stablecoin with a market capitalization of $24.37 billion, accounting for 19% of the total stablecoin market. 
+
+USDC also provides an open-source smart contract for companies to develop blockchain products such as wallets and exchanges. It further powers apps to provide real-time access to payments, trading, and financial services."
+"Ethereum is the second most popular blockchain network by market share, conceptualized by Vitalik Buterin in 2013, and launched two years later. Ethereum became popular due to its self-executing smart contracts.
+
+To explain, smart contracts are essentially computer programs that execute automatically if certain conditions are met. This competent tech is what paved the way for dApps, and from there, Ethereum took off. From DeFi protocols to the NFT mania to the significant growth of Decentralized Autonomous Organizations (DAOs), the wide-ranging innovations from dApp developers have indicated a field of endless possibilities when it comes to potential crypto use cases. The network boasts the highest number of developers. In fact, 16% of all crypto developers are building on Ethereum."
+"What are Ethereum Layer 2 blockchains for?
+Ethereum developers, like all blockchain developers, faced an age-old challenge: the blockchain trilemma. The blockchain trilemma, coined by Ethereum co-founder Vitalik Buterin, states that a blockchain architecture needs to choose between decentralization, security, and scalability. Ethereum prioritizes the former two aspects, so scalability inevitably took the backseat.
+
+However, compromising scalability comes with obvious drawbacks: slow and expensive transactions. Currently, Ethereum’s transaction processing capability stands at a mere 15 to 30 TPS. To provide context, VISA processes around 1,700 transactions per second. 
+
+Moreover, transaction finality, when a transaction is added to the blockchain and becomes irreversible, takes roughly 15 minutes on Ethereum.  Furthermore, the network is often overwhelmed and congested during periods of high demand, which causes abrupt surges in gas fees. 
+
+Ethereum layer 2 networks are, therefore, designed to tackle these issues and offer cheaper, faster transactions. They inherit Ethereum’s security and, by processing transactions of the parent chain, make the process more efficient.    
+
+Layer 2 solutions mainly differ in how they reduce Ethereum’s transaction load. The most common ones are sidechains and blockchain rollups.
+
+Sidechains are independent blockchains with native tokens and consensus mechanisms whose purpose is to help scale the parent network. They connect to the parent blockchain using a two-way bridge that enables users to move assets to and from Ethereum. 
+
+However, there’s no real transfer of assets between the two chains. Sidechains use something called a two-way peg. A smart contract locks up assets on the main chain and mints a mirror image of the tokens on the sidechain. The value of these new assets is pegged to the assets on the original chain. 
+
+Let’s use the boss and assistant analogy once again. In this case, the boss (Ethereum) sets aside a bunch of the workload (locks the tokens). The assistant (sidechain) works with a copy of the workload (pegged assets) to execute transactions. Once done, the sidechain destroys its copies and unlocks the original tokens on Ethereum. 
+
+Blockchain rollups are layer 2 scaling solutions that “rollup” or bundle a bunch of transactions and then send them to Ethereum as a single piece of data. This network then adds this to an Ethereum block and confirms it.
+
+Using the earlier analogy, the assistant carries the paperwork (transactions) to their desk, processes them, and compresses a big pile of paperwork into a single file. The assistant then sends that file, instead of the whole pile, back to the boss (Ethereum). This way, the boss has to deal with a fraction of the paperwork, which occupies less space. Therefore, as a user, you pay less gas fees because your transaction is grouped with many others and occupies less data space on the block. 
+
+There are two different types of rollups: Optimistic rollups and zero-knowledge (zk) rollups. Optimistic rollups assume that all transactions bundled together are valid unless otherwise proven. Zk rollups, on the other hand, produce a single cryptographic proof called “validity proof,” which attests to the validity of the transactions bundled together.   
+
+Popular Ethereum Layer 2s:
+Over the years, several Ethereum Layer 2 solutions have emerged — each prioritizing a specific audience, use case, or solution to Ethereum’s scaling efforts. Here are some of the most popular Ethereum Layer 2 solutions in the industry today:
+
+Polygon
+Polygon is one of the most popular Ethereum Layer 2 scaling solutions. It is an independent Ethereum sidechain faster and cheaper than its parent blockchain. Theoretically, Polygon can process up to 7,200 TPS, although the TPS currently stands around 1,000. Then for each of these transactions, the average gas is $0.01. It also plans on improving its transaction finality. Established brands like Starbucks use the network for loyalty programs due to the above benefits. 
+
+Arbitrum
+Launched by Offchain Labs, Arbitrum is an optimistic rollup that cuts down the speed and cost of transactions by bundling them and processing them off-chain. Arbitrum manages a total of  40,000 TPS, with transactions costing around two cents on average. Additionally, Arbitrum’s compatibility with Ethereum Virtual Machines (EVMs) helps Ethereum developers launch their dApps on Arbitrum without too many modifications to the code.
+
+Base
+Launched in August 2023, Base was incubated within Coinbase and built using the MIT-licensed OP Stack developed by Optimism. Notably, the total value locked (TVL) on the network surpassed $300 million by November.
+
+Base subscribes to the vision of a ‘super-chain’, a collection of inter-connected blockchains built on the OP Stack, that will together scale Ethereum. Optimism and Base are the first two chains that will make up the super-chain.
+
+ImmutableX
+ImmutableX is a zk-rollup scaling solution focused on non-fungible tokens (NFTs) and Web3 games. To that end, ImmutableX has built out software development kits (SDKs) and application programming interfaces (APIs) for game developers to simplify the tedious backend infrastructure.
+
+Along with fast transactions, ImmutableX aims to offer gas-free, carbon-neutral NFT minting. It also claims to offer transaction speeds of up to 9,000 TPS.
+
+Ronin
+Ronin is an Ethereum sidechain launched by Sky Mavis, which created the popular NFT game Axie Infinity. It uses a proof-of-authority (PoA) consensus mechanism where Sky Mavis and the community select network validators based on expertise and reputation.  The gaming-focused blockchain boasts “near-instant” transactions with an average cost of less than half a cent."
+"Since its inception in 2008, Bitcoin (BTC) has captured the attention of individuals, governments, and traditional finance institutions alike. As the first decentralized cryptocurrency and the largest blockchain by market share, Bitcoin’s status as the flagship cryptocurrency is undeniable.
+
+However, Bitcoin’s growth has not been all smooth sailing, as the network’s increased popularity has led to severe network congestion. At peak times, excessive fees and high wait times have made BTC unsuitable for small day-to-day transactions. These issues have laid bare the dire need for a scaling solution for Bitcoin to accommodate the increased pressure on the network. 
+
+In this article, you will learn about what Bitcoin Layer 2s are, how they work, their key use cases, and some of the leading Bitcoin Layer 2 networks today.
+
+What is Bitcoin Layer 2?
+Layer 1 and Layer 2 are terms that help distinguish between different networks within a single blockchain ecosystem. A Layer-1 network – which can also be referred to as a “parent chain” or “mainnet” in different contexts – is the fundamental blockchain. By contrast, Layer 2 solutions are secondary networks built on top of Layer 1’s architecture. 
+
+The purpose of a Layer 2 solution is to reduce the load on Layer 1 by bypassing its technical limitations while taking advantage of its strengths. Thus Bitcoin Layer 2s are networks that run on top of the main blockchain, primarily to increase its capacity to process transactions, but they can also increase usability in some other ways.
+
+Think of Bitcoin as a professor with too many exams to grade (transactions to process. A layer 2 blockchain is an effective teaching assistant that does a bulk of the work grading the papers, before returning them to the professor to be officially logged.
+
+In the same way, Layer 2 processes transactions off-chain, before sending them back to be added to the Bitcoin blockchain.
+
+Why Do Bitcoin Layer 2s Matter?
+Increasing Scalability
+The Bitcoin network takes about 10 minutes to finalize a single set of transactions  –  only seven transactions per second (TPS) on average. 
+
+This clogs the network during peak traffic and spikes transaction fees. For instance, in April 2021, users paid over $62 per transaction. While this may not be an issue for large transactions, it quickly becomes impractical for micropayments and point-of-sale transactions.
+
+What’s more, scaling the Bitcoin blockchain itself is effectively not an option, as this would require a trade-off in security or decentralization, per Vitalik Buterin’s concept of the Blockchain Trilemma. 
+
+In essence, The Blockchain Trilemma is the idea that any blockchain network can only optimize for two out of three main pillars: decentralization, security, and speed/scalability. Therefore, as the Bitcoin network settled on the former two pillars, it had to compromise on scalability.
+
+This wasn’t an issue when transaction volumes were low. But as more users worldwide adopted Bitcoin, the network’s inability to scale caused performance bottlenecks. Users experienced this network congestion in the form of high fees and long transaction times
+
+Bitcoin Layer 2s improve scalability by processing transactions off-chain to unburden the Layer 1.
+
+Increasing Utility
+Given its purpose as a digital currency, Bitcoin’s design only caters to two specific use cases. Namely, it enables censorship-resistant, trustless P2P transactions, and it provides the tech stack for Bitcoin to remain a deflationary store of value.
+
+Of course, this limited core functionality is one of Bitcoin’s key features, not a bug. It is part of what makes the network so robust and tamper-resistant. 
+
+On the other hand, this lack of functionality can make it difficult for developers to innovate and build upon Bitcoin’s revolutionary technology stack by drastically expanding the functionality of the network, Bitcoin Layer 2s  provide a viable way to unlock additional use cases. By utilizing Layer 2 networks, Bitcoin users can take advantage of web3 staples like smart contracts, DeFi services, and digital assets/NFTs  
+
+So that explains what benefits Layer 2s intend to offer Bitcoin users, but how exactly do they accomplish this? 
+
+How Do Bitcoin Layer 2s Work?
+While the overall purpose of Layer 2s is the same, they differ in the way they help the Bitcoin network process transactions
+
+State Channels
+These are Layer 2 solutions that can help to enable users to bypass high transaction fees. In this method, users create end-to-end encrypted ‘channels’ to send and receive payments. These channels work as micro-ledgers that maintain records on all transactions that occur within them. 
+
+State Channels keep all transactions within them off-chain, only reporting the opening and closing balance of participants to the main network when the channel closes. Thus, participants can make repeated transactions with individuals or businesses without having to pay high fees for every single transaction. 
+
+Rollup Chains
+Blockchain Rollups are a Layer 2 solution that takes numerous transactions off of Layer 1 onto a separate network, consolidates them into a single piece of data, and sends that single piece of data back to be added to Layer 1.
+
+It’s important to note that there are two kinds of Blockchain rollups – Optimistic and ZK. In short, Optimistic rollups assume that all of the transactions bundled together are valid unless proven otherwise. In contrast, ZK rollups produce a single cryptographic proof called “validity proof,” which attests to the validity of the transactions bundled together. 
+
+Sidechains
+A sidechain is an independent blockchain with its own consensus mechanisms that connect to Layer 1 via a two-way bridge. This bridge is vital as it is what allows the transfer of assets between chains. Due to effectively being its blockchain, a sidechain can support other Layer 2 solutions on top of it.
+
+Top Bitcoin Layer 2s
+Innovators and developers in the Bitcoin ecosystem have developed several Layer 2 solutions over the years, exploring the concepts and avenues discussed so far. 
+
+Here’s an overview of some of the best and most popular Bitcoin Layer 2s as of November 2023.
+
+The Lightning Network
+Launched in 2018, the Lightning Network uses ‘state channels’ to enable microtransactions on top of the Bitcoin Layer-1.
+
+To use the Lightning Network, participants send and receive BTC payments through encrypted P2P channels that are essentially smart contracts. To illustrate, to send 0.1 BTC to your friend, , you’d create a channel with them and fund it with the required amount. And once all the transactions are complete, you can close the channel. The system stays efficient by only sending the channel’s opening and closing balances to the Bitcoin network. 
+
+Rootstock (RSK)
+Rootstock  (RSK) is a sidechain that pioneered smart contracts on the Bitcoin blockchain. It works through something called a two-way peg. To explain, when a user sends Bitcoin to Rootsock, it becomes a locked-up, smart Bitcoin on Rootsock (RBTC) in the user’s RSK wallet. Sending RBTC in the other direction allows the user to withdraw their Bitcoin from the regular network.
+
+Rootstock claims to be able to process up to 300 TPS this way, a drastic improvement in Bitcoin’s transaction speed. The platform is also notable for its compatibility with Ethereum Virtual Machine (EVM). To clarify, EVM is a virtual computer responsible for executing smart contracts and updating the state of the Ethereum blockchain. In other words, Rootstock boasts compatibility with the entire ecosystem of Ethereum dApps.
+
+Stacks Protocol
+Stacks has become one of the top-performing Bitcoin L2s since going live on the mainnet in 2018 as Blockstack. The protocol enables self-executing smart contracts that you can deploy over Bitcoin without implementing a fork. To do this, the protocol uses microblocks for speed and a unique Proof-of-Transfer (PoX) mechanism to tie them to blocks on Layer 1. It provides an accessible, easy-to-use, plug-and-play method for running smart contracts and decentralized applications within the Bitcoin ecosystem. 
+
+Liquid Network
+ Liquid Network is a Bitcoin Layer 2 sidechain that runs on the open-source Elements blockchain platform. The network has its own native asset, Liquid (L-BTC), and is governed by a distributed federation of Bitcoin companies, exchanges, and other stakeholders. 
+
+Much like Rootstock, the Liquid Network uses a two-way peg to convert BTC to L-BTC and vice versa."
+"What is USDT?
+USDT is a stablecoin pegged to the value of the United States Dollar. It is offered, issued, and backed by the centralized entity Tether. Since it is a stablecoin, it’s expected to maintain a $1 price, irrespective of market conditions or supply-demand metrics. 
+
+Today, USDT accounts for over 53% of the global stablecoin market with a market cap of $87.3 billion (at the time of writing). It is also the third-largest digital asset after BTC and ETH. Almost every major cryptocurrency exchange will offer USDT, plus you can use it on countless platforms to buy, sell, swap, or use for crypto apps and services. As of November 2023, over 87.3 billion USDT coins are in circulation worldwide."
+"How does USDT remain stable?
+Tether keeps track of all of the assets across the chains that support it and stabilizes its value to roughly $1 (between $0.99 to $1.00016, on average) using a pegging mechanism.  
+
+To ensure that USDT is redeemable 1:1 for USD, Tether maintains a currency reserve with cash (USD), cash equivalents, and other assets. The size of this reserve is expected to be equal to or greater than USDT’s total circulating supply at all times. It also publishes these reserves on its official website, so you can keep track of these reserves yourself. Unlike algorithmic stablecoins, USDT’s value and stability depend on real assets in the said reserve, not any market-driven computer program.
+
+That said, in 2022 following lawsuits and the collapse of Terra (Luna), USDT’s price momentarily fell below its $1 mark. But why?
+
+Well, very simply, if a stablecoin is not collateralized, it risks de-pegging. Thus, when USDT did de-peg slightly,  this caused speculation and uncertainty among investors. 
+
+To understand why this happened, it’s important to note that Tether is responsible for managing assets across several different blockchains and platforms and guaranteeing that those assets are backed by reserves. But that’s more challenging than it may seem.
+
+In the moment it de-pegged, there was an imbalance in Curve’s 3pool, a liquidity pool supporting USDT. More specifically, Tether attributed it to a single person borrowing a huge amount from a liquidity pool, opening the door up to arbitrageurs. 
+
+Essentially this meant Tether miscalculated the number of tokens in circulation, and when that single loan was executed, it removed the liquidity from the system and revealed the imbalance. In short, there was a portion of the assets that were uncollateralized which led to the coin depegging slightly. That said, it did recover within 24 hours and has been operating as usual ever since."
+"How Does a Software Wallet Work?
+Essentially software wallets operate via software that you must download and install on your web2 device, such as a smartphone or laptop. These wallets are free and easy to install so tend to be very popular. 
+
+Let’s see how the crypto transaction process works with a software wallet:
+
+You initialize the transaction from your wallet’s interface
+The interface provides you with the intent.
+However, this intent is presented to you via the screen of your internet-connected device. This means the display of your transaction details can potentially be tampered with by hackers. In this sense, a software wallet can never offer you absolute certainty about what you are signing. 
+You press confirm to approve the transaction 
+The software wallet signs the transaction using the private key stored on the host device.
+In doing so, your software wallet accesses and uses that private key while your host device is connected to the internet. This is a potential threat, as the host device—your laptop or smartphone—is vulnerable to malware and spyware. Yes, if you use these types of wallets a hacker can extract your private keys. Or, they can even tamper with your screen to lure you into accepting a malicious transaction. 
+The software wallet uses the internet connection of its host device to broadcast the signed transaction."
+"How Does a Hardware Wallet Work?
+A hardware wallet is a physical device that keeps your private keys secured in an offline environment. These wallets physically store your private keys within a chip inside the device. The beauty of using a hardware wallet is the security it provides to your private keys. Signing offline means your private keys remain out of reach of hackers, even as you’re transacting. 
+
+To operate, it needs a connection to a separate device, such as a smartphone or laptop, where you can install its companion software. This is what allows you to send transactions via the internet even though your hardware wallet does not connect to the internet itself. 
+
+To understand the process fully, let’s explore how a hardware wallet processes a transaction:
+
+You initialize the transaction from your wallet’s interface, the companion software you have installed on your internet-connected device
+The interface provides you with the intent.
+This is shown on your internet-connected device’s screen    
+You confirm the transaction using the interface on your internet-connected device and then authenticate the transaction by physically confirming it on your hardware device.
+This acts as a form of 2FA to guarantee that only someone with physical access to the device can execute a transaction. That means hardware wallets must also employ measures to protect users from thieves and physical hackers.
+The hardware wallet signs the transaction using the private key stored in its chip
+Your hardware wallet stores your private keys on its computer chip. When you confirm a transaction on the device it can use your private key to sign the transaction. However, it does so offline within the device’s chip, away from an internet connection. This keeps them protected from potential onlookers using spyware on your laptop or smartphone.
+The hardware device sends the signed transaction to your internet-connected device via Bluetooth or USB-C cable, and then broadcasts it to the blockchain.
+An already signed transaction is safe to send through a potentially insecure channel. So from there, your interface can send the transaction to the network’s nodes for validation.
+However, it’s important to note that not all chip types offer the same level of security. To clarify, hardware wallet hacks do happen. And often, unaudited chips are to blame. A wallet is only as secure as its security model—more specifically as its embedded software stack and hardware components."
+"What’s the difference between cold and hot crypto wallets? 
+
+Firstly, hot wallets are designed to help you access and interact with the cryptocurrency world easily by connecting to the internet. However, in doing so, they sacrifice some security measures. While hot wallets are handy for quick transactions, they are also vulnerable to theft. This is because hot wallets store private keys on the host device, the same device connected to the internet. Unfortunately, anything connected to the internet is always more prone to attack.
+
+In contrast, cold wallets have a completely different purpose. A cold wallet stores your private key completely disconnected from the internet. Plus, they do not interact with smart contracts – precisely the opposite use-case of a hot wallet."
+"A hardware wallet is a physical device that stores your private keys in an environment separated from an internet connection. Like other crypto wallets, it provides users with a way to sign transactions and interact with the blockchain."
+"What Is Ripple (XRP)?
+Ripple is a for-profit technology company that uses blockchain to let financial institutions worldwide make cross-border transactions faster, cheaper, and more reliable. To aid its ambitions, Ripple has crafted various products and initiatives like RippleNet, XRP Ledger, and Interledger protocol (ILP). 
+
+In addition to this, Ripple has also developed a native cryptocurrency called XRP. It serves as a settlement layer and facilitates transactions within the globally accessible network."
+"What Is a Bitcoin Mixer?
+Bitcoin mixers, also known as tumblers, are services that receive cryptocurrencies from users, pool them together, and then send the amounts to their corresponding recipient addresses. This is an effort to obfuscate the transaction trail.
+
+To explain, if you’re using a mixer, the mixer’s address becomes the recipient of any outgoing transactions from your wallet instead of a specific Bitcoin address. Similarly, in the case of a recipient’s address, the address is again that of the Bitcoin mixer. 
+
+Mixing funds hides the original sources, making it difficult for external observers to identify the specific senders or recipients.
+
+Depending on the mixer, service fees are generally quite low, ranging from 0.5% to 7% of the transaction."
+"What Is Wrapped Crypto?
+Wrapped crypto or wrapped tokens are digital assets that; represent the exact value of an original cryptocurrency from a different blockchain or follow a different token standard to the chain its on. WBTC and WETH are good examples of the former and latter respectively.
+
+Wrapping original tokens to mint new tokens compliant with another blockchain allows users to use assets from one chain on another chain entirely.
+
+For instance, let’s use Bitcoin (BTC) as an example. By design, bitcoin can originally only function inside the Bitcoin ecosystem. But what if you want to use the world’s largest cryptocurrency on the world’s largest dApp blockchain Ethereum?
+
+In short, there’s a way to deposit your BTC from your Bitcoin wallet and receive wrapped Bitcoin (WBTC) — an ERC-20 token — in your Ethereum wallet.
+
+The WBTC you receive will be a wrapped crypto token. In short, it represents the original value of the BTC that you deposited. Owning that wrapped Bitcoin then means you can use Ethereum-based decentralized application that support wrapped bitcoin transactions. Put simply, you can transfer the value of bitcoin while using Ethereum’s infrastructure.
+
+As mentioned, “wrapping” is a just figurative term used to describe the minting or creation of a new token that derives its value from an underlying digital asset."
+"What is Bitcoin Mining? 
+Bitcoin mining is the process of adding new transaction blocks to the Bitcoin ledger by miner nodes that solve complex hashing problems and claim newly minted Bitcoins as mining rewards.
+
+How does Bitcoin Mining work? 
+Bitcoin mining is a central concept of Bitcoin’s proof of work (PoW) consensus mechanism, which helps “mine” new bitcoins to the system while validating transactions. 
+
+As its name suggests, PoW literally translates to proof of “work being done”. In this case, that translates to powerful computers crunching the numbers required through sheer computational brute force to validate transactions and produce new bitcoins.
+
+Core to the PoW consensus protocol are two main network participants: miners and nodes. A node is a network computer that provides the first layer of checks to determine whether a transaction is valid. Valid transactions are then added to a memory pool or, in other words, a queue of transactions that don’t have any blocks assigned to them. That’s where miners come in.
+
+Miners compete against each other to find a secret phrase, called “nonce”, which, when combined with the transaction data, grants them the right to validate blocks. The winning miner determines which transactions need to be prioritized for the next block, put them together in a block and add it to the blockchain. 
+
+Miners can also function as a node, because they have a copy of all transactions. However, nodes cannot operate as miners.
+
+ Since miners need to have a copy of all transactions to do this, they can, by default, operate as a node, but vice versa is not necessary."
+"What Is Proof of Stake (PoS)?
+Proof of Stake (PoS) is a type of consensus mechanism that is used to secure blockchain networks. Consensus mechanisms are the backbone of all blockchains, as the underlying rules that determine how a network functions.
+
+What’s a Consensus Mechanism?
+Let’s start by understanding the idea of consensus. Generally speaking, consensus is a process used to reach an agreement among a group of people. 
+
+In terms of blockchain, the consensus is the process by which a group of nodes on a network determines which blockchain transactions are valid. A consensus mechanism is the methodology to achieve this agreement.
+
+So, a blockchain is a digital ledger of distributed, decentralized, and often public transactions. Each transaction on a blockchain is recorded as a ‘block’ of data and must be verified by peer-to-peer computer networks before being added to the chain. This system helps secure the blockchain against fraudulent activity and double-spending.
+
+There are many types of consensus mechanisms. Each work in different ways but have one purpose: to ensure that transaction records on a blockchain are true and honest. Proof of Stake (PoS) is one of the most popular consensus mechanisms."
+"What is Dust?
+In the language of crypto, the term dust refers to a very small amount of coins or tokens. If taking bitcoin as an example, the smallest unit of the BTC is 1 satoshi (0.00000001 BTC), so dust could be equal to a few hundred satoshis.
+
+What is a Dusting attack?
+A dusting attack is a new type of malicious activity performed by scammers when they send tiny amounts of coins or tokens (dust) to thousands, sometimes even hundreds of thousands of addresses on the network. There are different reasons behind these attacks.
+
+The main purpose of these attacks is to track the transactional data of the wallets sufficiently enough in order to deanonymize the owner of the wallet and perform a targeted phishing attack on the victim to get hold of users’ crypto."
+"How do scammers know my wallet’s address? 
+Since the transactional information on most blockchains is public and available in all chain explorers, there is no difficulty for the scammers to see the transactions on the network. Though they still can see various addresses and amounts of coins sent, they have no information whatsoever about the identity of the address owners."
+"Can I cancel or reverse a transaction?
+No, transactions cannot be cancelled or reversed once they have been broadcast to the network (blockchain). This is because cryptocurrency transactions are final and irreversible. It is important to carefully consider and confirm the details of a transaction before sending it, as it is not possible to retrieve funds that have been sent to the wrong address or to an address controlled by someone else. If you have made a mistake in a transaction or have sent funds to the wrong address, it may not be possible to recover them."
+"Benefits of Self-Custody
+Self-custody of bitcoin offers significant advantages:
+ 
+Security and Control: You have direct control over your bitcoin, reducing risks related to hacking or third-party failures.
+ 
+Privacy: Transacting under self-custody allows you to maintain privacy as you don't need to disclose personal information to a third party.
+ 
+Freedom: Self-custody resonates with bitcoin's core principles of decentralization and individual financial sovereignty."
+"Block
+A block is a cryptographically secured collection of transactions. It is a basic part of blockchain structure.
+ 
+
+Creation of blocks
+Blocks are created and added to the blockchain as part of the mining process. Miners are competing in finding new blocks using a proof-of-work algorithm. This involves repeatedly hashing the header of the block and a random number with the SHA-256 cryptographic algorithm until a solution matching a predetermined pattern emerges. The first miner who finds the solution fills the block with transactions which are picked (mostly according to highest fees included in them) from mempool and publishes that block into the blockchain. Transactions that miners add to a block are considered confirmed, which means that the new owners can now spend them in new transactions. When the block is published, a new, different competition starts for all miners, which now also includes the added block. A special transaction is also included (coinbase transaction) - this transaction pays miner the a block reward. Miners also get the sum of transaction fees from all the transactions included in the block. Every new block contains a hash of the previous block. It is also impractical to modify it once it is in the chain for some time because every block after it would also have to be regenerated.
+
+As Bitcoin's blockchain is a public ledger, it is possible to check the block and transactions included in it on the blockchain explorer (eg., see transactions in block 556701 - the first transaction shows block reward together with transaction fees that were paid to its successful miner).
+ 
+
+Block structure
+The main data recorded in blocks are transactions. Every block also contains block header, block size and metadata.
+
+Block header contains three sets of metadata:
+
+a reference to a previous block hash - this hash connects this block to the previous block in the blockchain.
+difficulty, timestamp, and nonce
+merkle tree root - a data structure used to summarize all the transactions in the block efficiently
+ 
+Previous block hash
+Every block in the blockchain has its parent block to which it is connected. When a new block is mined by the miner, its validity is checked by all nodes, and it is linked to the existing blockchain using the previous block hash.
+ 
+
+Merkle tree
+Merkle root is part of the block metadata. It can be used to check if a specific transaction is part of the block. Transactions are firstly divided into pairs, and if there is an odd number of transactions in the block, the last transaction is doubled. The pairs are hashed using SHA-256 two times (double-SHA-256). These hashes are subsequently paired (concatenated) with the double SHA-256 hash of neighbour transactions, and these paired hashes are hashed again. This is repeated, which creates a merkle tree (or binary hash tree) until one final hash - the merkle root (or root hash) - emerges. Merkle root always summarizes all transactions to 32 bytes hash no matter how many transactions there are in the block.
+
+Merkle root is a very efficient way to prove that a transaction is part of the block. To prove this, a node needs to compute only log2(N) 32-byte hashes. The number of computations increases slowly even when the count of transactions within the block increase rapidly.
+ 
+
+Simplified Payment Verification (SPV)
+Simplified Payment Verification (SPV) are nodes that do not download full blocks but only block headers. These nodes use the merkle path to verify if transactions are part of the block.
+ 
+
+Block height
+The block height is the number of blocks in the chain between a given block and the genesis block (the first block mined in the blockchain).
+ 
+
+Blockchain
+A blockchain is a shared database secured by cryptography. It is used by cryptocurrencies like Bitcoin or Ethereum as an independently auditable storage of all its transactions (recorded in blocks) in a decentralized network. This is why it is also often referred to as a decentralized ledger - it is saved on many computers all over the world that are called nodes.
+ 
+
+Public ledger
+In most cryptocurrencies the blockchain is a public ledger, meaning anyone can check the balances and transactions of any address used. Some cryptocurrencies (e.g. Monero) have their blockchain obfuscated.
+ 
+
+Blocks and mining
+The blockchain is also characterized by adding new transactions in separate blocks in a process called mining. Every new block contains a hash of the previous block, and it must meet certain criteria. A new block always comes after the previous block (chronologically) because the previous block's hash would otherwise not be known. It is also impractical to modify it once it has been in the chain for some time because every block after it would also have to be regenerated. These properties are what make transactions in Bitcoin and other cryptocurrencies irreversible.
+ 
+
+Forks
+During the creation of new blocks, forks can occur. One-block forks are created from time to time when two blocks are created just a few seconds apart by two different miners. Nodes build onto whichever one of the blocks they received first. This situation lasts until the next block is found on one or another chain. If a new block is found on one of these chains, it is broadcasted and the nodes with the second chain have to accept the new chain, because the longer chain prevails. In some rare situations a new block can be found in both of these chains. This fork is then solved in the next block in the same way. This is why the transactions are confirmed 'absolutely' only after 6 confirmations - it is almost impossible that the fork of new blocks lasts for 6 or more blocks. More serious forks have occurred after fixing bugs that required backward-incompatible changes.
+
+There are also permanent divergences in the blockchain, which occurs when non-upgraded nodes can’t validate blocks created by upgraded nodes that follow newer consensus rules. They mostly occur when there is a change in protocol and are called hard forks."
+"Fork
+In cryptocurrencies, a fork can be defined as:
+
+ 
+what happens when a blockchain diverges into two potential paths forward (e.g. a situation that occurs when two or more blocks have the same block height)
+a change in protocol (soft fork, hard fork)
+
+Hard fork
+A hard fork is a permanent divergence in the blockchain, which occurs when non-upgraded nodes can’t validate blocks created by upgraded nodes that follow newer consensus rules. Cryptocurrencies after a hard fork share a transaction history up to a certain time and date.
+
+The first intentional Bitcoin hard fork happened on 1 August 2017, resulting in the creation of Bitcoin Cash. Other coin splits created altcoins such as Bitcoin Gold or Bitcoin Private; Bitcoin owners automatically received the newly created coin, so if you owned Bitcoin during the hard fork coin split, you also own the new coin (e.g. Bitcoin Cash). If users want to claim this, it has to be implemented in the wallet.
+
+In November 2018, a hard-fork chain split of Bitcoin Cash occurred. This hard fork resulted in the creation of Bitcoin ABC and Bitcoin SV.
+ 
+
+Hash rate
+A hash rate (also hash power, hash per second) is the measure of a miner's performance. It is a unit representing the number of double SHA-256 computations performed in one second. Hash rate is used in every cryptocurrency that uses proof of work.
+
+The 'hash per second' is also used in calculations of the Bitcoin network's overall hash rate. The overall hash rate of the network is calculated based on the time between blocks, which is useful when measured over longer periods of time.
+ 
+
+Input
+In the context of Bitcoin, an input is a reference to an output from a previous transaction. Multiple inputs are often listed in a transaction. An input can only be spent as a whole. If a payment is smaller than the input, the remaining change is sent back to the user's change address.
+
+"
+"Mining
+In cryptocurrencies, mining is the process of completing a new block of transactions and adding it to a blockchain. Miners are nodes in cryptocurrency networks that select transactions from the mempool, validate that the transactions follow all protocol rules and include them in the created block.
+
+Mining is typically a decentralized process. A successful valid block formation is a random event, the probability of which is proportional to the computing power of the miner's hardware. The reason why miners are motivated to commit their resources to mining is that they are rewarded by newly created cryptocurrency in each block they successfully create, together with transaction fees from each transaction they add to a valid block. Mining thus also constitutes the default way of decentralized cryptocurrency initial distribution. However, mining is not primarily a process for the creation of new Bitcoin, but rather serves as a mechanism by which is the security of the network decentralized.
+
+Mining is a competition between miners (or typically mining pools). Every miner tries to solve a difficult mathematical problem based on a cryptographic hash algorithm. A solution - proof-of-work - is included in the found block and provides proof that the miner spent the necessary power or computing effort. The SHA-256 hash function is used in the Bitcoin mining process. Mining involves hashing the block header repeatedly, changing one parameter, until the resulting hash matches a specific target.
+ 
+
+Mining - repeatedly hashing the block header to meet the target
+Miner nodes which want to win the competition in finding next block have to prepare a so-called 'candidate block', meaning it is not valid until the miner finds the valid proof-of-work. Candidate blocks contain coinbase transactions (which contain the block reward for the miner), transactions that are waiting for their first confirmation (picked up from the mempool), block header which consists of version, previous block hash, merkle root, timestamp, target and nonce.
+
+Miner's hardware starts to hash the block header repeatedly with SHA-256, only with a different nonce each time. The nonce provides additional data to the block header, which will cause a different hash every time the block header is hashed. When this hash meets the target, the candidate block becomes valid and can be broadcasted to the network as a new block.
+
+The target is a challenge, meaning that the hash of the new block header has to meet certain criteria. The probability that the hash will meet the criteria is very low, so typically many hashes have to be produced by a miner's hardware until the criteria is met. A lower target means it is more difficult to find a hash below the target. The target and difficulty are inversely related."
+"Token
+A token is a digital asset that lives on a cryptocurrency. The term 'token' is often used in the meaning of a user-issued token, in contrast to a native token that comes into existence along with the cryptocurrency itself.
+ 
+
+Native and user tokens
+All cryptocurrencies have at least one token. This is a native token that is created along with the cryptocurrency, is essential to its function, and is often synonymous to it.
+
+Some cryptocurrencies also support user asset issuance. Such assets are referred to as a 'user tokens'. For example, Ethereum has a growing number of ERC20 tokens issued by individual users and companies during ICOs or crowdsales.
+
+Native tokens are commonly referred to as cryptocurrencies (or less formally as 'coins'), while user tokens are simply called tokens.
+"
+"What is a UTXO?
+An unspent transaction output (UTXO) is the term for the amount of cryptocurrency that remains after a transaction was sent.
+
+As an example, bitcoin stores data about transactions and user balances in the form of UTXOs, which are a list of “unspent” bitcoin amounts that have been sent to a user, but have not yet been sent from him/her.
+
+This means only unused outputs can be used as inputs in a transaction. 
+
+After a transaction occurs, the input is deleted and a new UTXO is created, which can be used in future transactions. "
+"How to know if a DApp is a scam or not?
+
+If you want to know if a DApp is legit or not, the Best way is to do your own research online before investing in any DApp.
+
+Simply enter the name of the DApp, + “scam” in a google search, or also verify the society behind the DApp, or the team, or if it’s a famous DApp or not. Also, verify that there are security audits on it, speak with the crypto community on different channels, and don’t trust anyone sending you private messages or that you need to contact on Whatsapp. When you enter any crypto channel on social networks, you will receive a lot of private messages, so please never answer them and only speak in public channels where a lot of users can help you and see your whole conversation."
+"Non-custodial / self-custody  
+
+These wallets give the user full control over their private key, including any funds within the wallet. A non-custodial wallet offers the most freedom to users; however, it also requires a higher level of responsibility.
+
+Custodial
+
+These wallets are hosted by centralized companies, which assume 100% responsibility for holding their users' funds. The user never holds possession of their private key, and can only access their tokens at the discretion of the company which owns the wallet.  "
+"Contract Address: A smart contract is a self-executing, programmable agreement with predefined rules that automatically enforces or executes actions when certain conditions are met. The contract address allows users to interact with the smart contract, such as sending or receiving tokens, or invoking specific functions.
+
+Public Wallet Address: A public wallet address is like an email address for your Web3 wallet. It's a unique identifier that you share with others so they can send digital assets to your wallet."
+"Private Key: A private key is like the password to your Web3 wallet. It's a secret, alphanumeric string of characters that grants you access to your wallet and allows you to authorize transactions. You should never share your private key with anyone, as possessing it would give them full control over your funds."
+"Contract Address
+A contract address is a unique identifier for a smart contract deployed on a blockchain. Smart contracts are self-executing agreements that follow predefined rules and automatically enforce actions when specific conditions are met. An EVM contract address enables users to interact with the smart contract, such as invoking its functions or transferring tokens etc. Every token has its own unique contract.
+
+While both contract and wallet addresses are unique identifiers on the Ethereum blockchain, they both serve different purposes. A wallet address is used for sending, receiving, and holding both native and non-native digital assets, while a contract address is only associated with its creator, the smart contract itself, and its functionality.
+
+Contract addresses are generated deterministically during smart contract deployment, using the deploying address (owner) and its nonce (the number of transactions sent from the address). Public wallet addresses, on the other hand, are derived from private keys.
+
+You can't inherently tell the difference between a contract address and a wallet address just by looking at them. However, you can use a block explorer like Etherscan to check if an address is a contract address. When you search an address, the block explorer will display information about it, including whether it's a contract address or a wallet address."
+"What happens if I send assets to a contract address?
+
+In most cases, users will accidentally copy and paste the token contract address of the token they are wanting to send, instead of the public wallet address. Unfortunately tokens are almost always unrecoverable in these scenarios, unless the token creator has added in a special [rescueFunds] function to recover them at the time of creation. In that case, it is recommended to try and contact the token creator to see if the funds are recoverable. "
+"What is a blockchain transaction?
+ 
+A blockchain transaction is a transfer of value from one address on a network to another. A user creates a transaction in their app, and it is then sent out to the blockchain. The user's transaction then sits in a ""mempool"" of other pending transactions, where it waits to be ""mined"". Once enough miners confirm the transaction, it is stored forever in a block. (by design, blockchain transactions are permanent) 
+
+The block contains a batch of transactions, and has specific time and size limits for how many transactions will fit in it. Once the block time is up, or its maximum amount of transactions has been reached, the block gets added to the chain, and the next block iteration begins. 
+
+Each transaction can be viewed on a ""block explorer""."
+"What is ETH?
+ 
+Ethereum (ETH) is the native cryptocurrency of the Ethereum platform. It’s the world’s second biggest cryptocurrency behind Bitcoin. ETH is used for paying fees in all applications operating on the Ethereum network, such as, for instance, swap fees charged on token exchanges. With ETH, you can buy various tokens of the same standard, ERC-20. To learn more on ETH, see: https://ethereum.org/en/eth/"
