@@ -44,7 +44,7 @@ async def ask_csvs(question):
                            verbose = True,
                            agent_type=AgentType.OPENAI_FUNCTIONS,)
 
-  return agent.invoke(question)
+  return agent.invoke(question + 'If you can not find answer, just say that there is no nay information related to this question')
 
 
 

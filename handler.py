@@ -64,8 +64,9 @@ Use these criteria to accurately categorize each question or comment. If a messa
     response_message = await product_response(message.text, message.from_user)
     #response_message = await ask_csvs(message.text)
     #await message.answer(response_message['output'] )
-    await message.answer('your question is related to the product')
-    await message.answer(response_message)
+    #print(message.from_user.chat_id)
+    await message.reply('your question is related to the product')
+    await message.reply(response_message)
   elif response_condition.content == 'Bad':
     await message.answer('Talk in good manner')
   elif response_condition.content == 'Spam':

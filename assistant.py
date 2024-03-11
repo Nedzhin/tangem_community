@@ -122,8 +122,8 @@ async def process_thread_with_assistant(user_query, assistant_id, from_user, mod
             )
             print(f"Current status of the run: {run_status.status}")
             if run_status.status == 'in_progress':
-                await bot.send_chat_action(chat_id=from_user.id, action='typing')
-
+                # await bot.send_chat_action(chat_id=from_user.id, action='typing')
+                print('running')
             if run_status.status == "requires_action":
                 print("Run requires action. Executing specified function...")
                 tool_call = run_status.required_action.submit_tool_outputs.tool_calls[0]
@@ -230,7 +230,7 @@ def create_assistant():
     print([file_id_1, file_id_2, file_id_3])
     # Create the assistant
     assistant = openai.Client().beta.assistants.create(
-        instructions= "You are the Tangem community assistant chatbot in crypto wallet questions which have access to the telegram group. You have access to the ask_csvs and send_email functions. You should analyze user's question and should identify which function to call. If user asks the question or statement is about Tangem product then call the ask_csvs function anf retrieve the answer. If you do not get answer for the user question from the ask_csvs function or user asks to send the question to support team then call sen_email function. Answer politely, faster, shortly and understandable way. The answer speed is the main thing.",
+        instructions= "You are the Tangem community assistant chatbot in crypto wallet questions which have access to the telegram group. You have access to the ask_csvs and send_email functions. You should analyze user's question and should identify which function to call. If user asks the question or statement which is about Tangem product, about card, about wallet or about crypto related questions then call the ask_csvs function anf retrieve the answer. If you do not find answer for the user question from the ask_csvs function, can not get enough information or user asks to send the question to support team then call send_email function and tell the user that you can not found the answer. Answer politely, faster, shortly and understandable way. The answer speed is the main thing. If you answer, from your own knowledge, say that these information is not in the provided csv files",
         model="gpt-4-turbo-preview",
         tools=[
          {
