@@ -1,4 +1,5 @@
 aiogram
+chromadb
 openai
 python-dotenv
 langchain
